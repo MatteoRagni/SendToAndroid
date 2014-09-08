@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "nodewebkit"
+  },
+  "name": "SendToAndroid",
+  "main": "index.html",
+  "window": {
+  	"frame": false,
+    "toolbar": false,
+    "width": 332,
+    "height": 150,
+    "position": "mouse"
+  }
+}
