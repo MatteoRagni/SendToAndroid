@@ -1,0 +1,96 @@
+body {
+	-webkit-app-region: drag;
+	background-color: #444;
+	border-radius: 5px;
+	resize: none;
+	overflow: hidden;
+}
+
+textarea {
+	-webkit-app-region: no-drag;
+	background-color: #555;
+	color: #ddd;
+	border-radius: 0px;
+	padding: 10px;
+	height: 60px;
+	width: 242px;
+	resize: none;
+	margin-left: 50px;
+	border-radius: 5px;
+	/*box-shadow: 3px 3px 2px 2px #333;*/
+	border: 1px solid #333;
+	transition: background-color 0.5s linear;
+}
+
+textarea:focus {
+	background-color: #777;
+}
+
+textarea:hover{
+	background-color: #666;
+}
+button {
+	-webkit-app-region: no-drag;
+	border: 1px solid #aaa;
+	background-color: #555;
+	color: #eee;
+	border-radius: 0px;
+	padding: 10px;
+	border-radius: 5px;
+	/*box-shadow: 3px 3px 2px 2px #333;*/
+	border: 1px solid #333;
+}	
+
+#send {
+	background-color: rgb(66, 139, 202);
+	width: 95px;
+	transition: background-color 0.5s linear;
+	margin-left: 50px;
+	border: 1px solid #000099;
+}
+
+#send:hover {
+	background-color: rgb(91, 192, 222);
+}
+
+#send:focus {
+	background-color: rgb(91, 192, 222);	
+}
+
+#sendUnlock {
+	background-color: rgb(66, 139, 202);
+	width: 95px;
+	transition: background-color 0.5s linear;
+	border: 1px solid #000099;
+}
+
+#sendUnlock:focus {
+	background-color: rgb(91, 192, 222);
+}
+
+#sendUnlock:hover {
+	background-color: rgb(91, 192, 222);
+}
+
+#quit {
+	background-color: rgb(201, 48, 44);
+	width: 65px;
+	transition: background-color 0.5s linear;
+	border: 1px solid #990000;
+}
+
+#quit:hover {
+	background-color: rgb(240, 173, 78);
+}
+
+#quit:focus {
+	background-color: rgb(240, 173, 78);
+}
+
+textarea:focus {
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}

@@ -9,6 +9,8 @@
     "toolbar": false,
     "width": 332,
     "height": 150,
-    "position": "mouse"
+    "position": "mouse",
+    "resizable": false,
+    "always-on-top": true
   }
 }
